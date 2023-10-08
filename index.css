@@ -261,9 +261,11 @@ nav.m1 .m1c {
 .info1 li em {
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 .info1 .m1 h4 {
+  color: rgb(56, 7, 102);
   text-align: center;
   font-size: 1.2rem;
   width: 250px; height: 5px;
@@ -336,7 +338,7 @@ ul.m2_img li {
 .ghost_btn {
 
   position: relative;
-  top: -35vh; right: 520px;
+  top: -45vh; right: 520px;
   margin: 0 auto;
   background-color: orange;
   width: 130px;
@@ -412,10 +414,6 @@ ul.m2_img li {
 
 /* map */
 
-.contact {
-  border: 1px solid;
-}
-
 .contentsBox {
   display: flex;
   justify-content: center;
@@ -432,13 +430,13 @@ ul.m2_img li {
 }
 
 .contents1, .contents2, .contents3 {
-  width: 20%; height: 80%;
+  width: 26%; height: 90%;
   margin: 0 1%;
 }
 
 .contents1_txt {
   background-color: rgba(0, 0, 0, 0.384);
-  width: 20%; height: 32%;
+  width: 26%; height: 36%;
   position: absolute;
   color: white;
   text-align: center;
@@ -454,10 +452,10 @@ ul.m2_img li {
 }
 
 .contents1_txt h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
-  margin: 10% auto 3% auto;
-  width: 95%;
+  margin: 15% auto;
+  width: 90%;
   
 }
 
@@ -480,6 +478,9 @@ ul.m2_img li {
 }
 
 
+.contents2 {
+  height: 100%;
+}
 
 .contents2_top {
   display: flex;
@@ -520,7 +521,7 @@ ul.m2_img li {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(128, 128, 128, 0.274);
-  margin-bottom: 3vh;
+  margin-bottom: 4.6vh;
   margin-top: 2vh;
 } 
 
@@ -579,12 +580,13 @@ footer {
 .adress_m p {
   color: gray;
   margin: 1% auto;
+  font-size: 0.8rem;
 }
 
 .site ul {
   display: flex;
   justify-content: right;
-  margin: -6% 5%;
+  margin: -7% 5%;
 
 }
 
@@ -594,7 +596,7 @@ footer {
 }
 
 .site a{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 /* footer */
