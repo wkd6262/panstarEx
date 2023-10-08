@@ -44,7 +44,7 @@ ul li a {
   background-color: #fff;
 }
 
-header .h_main li:hover .h_sub li{
+.header .h_main li:hover .h_sub li{
   
   height: 80px; width: 100px;
   transition: 0.5s;
@@ -56,13 +56,13 @@ header .h_main li:hover .h_sub li{
   background-color: black;
 }
 
-header .h_sub {
+.header .h_sub {
   background-color: #fff;
   margin-top: 30px;
   line-height: 70px;
 }
 
-header .h_sub li {
+.header .h_sub li {
   text-align: center;
 
   overflow: hidden;
@@ -188,8 +188,237 @@ nav.m1 .m1c {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
- {
-  background-color: rgba(255, 102, 0, 0.671);
+.info1 {
+  position: relative;
+  top: -67px;
+  min-height: 100vh;
+  height: 100%; width: 100%;
+  font-size: 1.8rem;
+}
+
+
+.info1 .info1_m img, .info2 .info2_m img, .map .map_m img, .contact_m img {
+  max-width: 100%; max-height: 100%;
+  width: 30px; height: 30px;
+}
+
+.info1 .info1_m h2, .info2 .info2_m h2, .map, .contact_m {
+  font-size: 2.4rem;
+}
+.info1 .info1_m p, .info2 .info2_m p, .contact_m p{
+  text-align: center;
+  font-size: 1.3rem;
+  width: 620px;
+}
+
+.info1 .info1_m{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin:200px auto;
+  margin-top: 20vh;
+}
+
+
+
+.info1 .m1 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+
+  margin: 5%;
+}
+.info1 .m1 p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.info1 .m1 strong {
+  font-size: 1rem;
+  margin: 5%;
+}
+
+.info1 .m1 li {
+  padding-right: 5%;
+  border-right: 2px solid rgba(128, 128, 128, 0.418);
+}
+
+.info1 .m1 li:nth-child(4){
+  border-right: none;
+}
+
+.info1 .m1 em {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-style: normal;
+  width: 150px; height: 50px;
+  margin: 0 auto;
+}
+
+.info1 li em {
+  display: flex;
+  justify-content: center;
+}
+
+.info1 .m1 h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 250px; height: 5px;
+}
+
+/* info1 */
+
+.info2 {
+  position: relative;
+  top: -67px;
+  min-height: 100vh;
+  height: 100%; width: 100%;
+  font-size: 1.8rem;
+  padding-bottom: 50px;
+}
+
+.info2 .info2_m {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+/* info2 */
+
+.m2 {
+  background-color: beige;
+  width: 55%; height: 70vh;
+}
+
+.m2 ul.m2_m {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 15%;
+}
+
+ul.m2_m li {
+  margin: 10% 5%;
+  font-size: 1.2rem;
+}
+
+ul.m2_sub {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+ul.m2_sub p {
+  margin-top: 40px;
+  width: 600px;
+  font-size: 1.2rem;
+
+}
+
+ul.m2_img {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+ul.m2_img li {
+  margin: 0 10px;
+}
+
+.m2_m:hover .m2_sub{
+  border: 1px solid;
+}
+
+.ghost_btn {
+
+  position: relative;
+  top: -35vh; right: 520px;
+  margin: 0 auto;
+  background-color: orange;
+  width: 130px;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+.ghost_btn a {
+  font-weight: bold;
+  color: white;
+
+}
+
+.m2_m2 {
+  position: relative;
+  left: 90%; top: -510px;
+}
+
+.m2_m2 img {
+  width: 100%; height: 100%;
+}
+/* m2 */
+
+.map  {
+  border: 1px solid;
+  width: 100%; height: 100vh;
+  background-color: #ffffff;
+}
+
+.map .map_m {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh auto 5vh auto; 
+}
+
+.map_m p {
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.schedule {
+  display: flex;
+  justify-content: center;
+}
+
+.schedule a {
+  margin: 0 2vw;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2rem;
+}
+.mapbg {
+  background-color: yellow;
+  text-align: center;
+  padding: 8%;
+  margin-top: 2vh;
+}
+
+.map > .ghost_btn {
+
+  position: relative;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: orange;
+  width: 130px;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* map */
+
+.contact_m {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15vh auto 5vh auto; 
 }
 
 /* main ▲ */
