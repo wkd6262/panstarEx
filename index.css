@@ -361,7 +361,6 @@ ul.m2_img li {
 /* m2 */
 
 .map  {
-  border: 1px solid;
   width: 100%; height: 100vh;
   background-color: #ffffff;
 }
@@ -392,7 +391,7 @@ ul.m2_img li {
   font-size: 1.2rem;
 }
 .mapbg {
-  background-color: yellow;
+  background-color: #fae300;
   text-align: center;
   padding: 8%;
   margin-top: 2vh;
@@ -413,12 +412,189 @@ ul.m2_img li {
 
 /* map */
 
+.contact {
+  border: 1px solid;
+}
+
+.contentsBox {
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  margin: auto auto 1% auto;
+}
+
 .contact_m {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  margin: 15vh auto 5vh auto; 
+  margin: auto auto 5% auto; 
 }
 
+.contents1, .contents2, .contents3 {
+  width: 20%; height: 80%;
+  margin: 0 1%;
+}
+
+.contents1_txt {
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 20%; height: 32%;
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.contents1 h1 {
+  position: absolute;
+  background-color: orange;
+  width: 130px;
+  padding: 2%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.contents1_txt h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 10% auto 3% auto;
+  width: 95%;
+  
+}
+
+.contents1_txt p {
+  font-weight: bold;
+  margin-bottom: 5%;
+  font-size: 1.2rem;
+}
+
+.contents1 a {
+  color: white;
+  border: 1px solid white;
+  padding: 2% 3%;
+  font-size: 1.2rem;
+}
+
+.contents1 img {
+  width: 100%; height: 100%;
+  
+}
+
+
+
+.contents2_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents2 h2 {
+  font-size: 2rem;
+}
+
+.contents2_top > a {
+  border: 1px solid rgba(128, 128, 128, 0.322);
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  padding: 0 8%;
+}
+
+.contents2_txt {
+  margin-top: 1vh;
+  display: flex;
+  color: black;
+  margin-left: 1vw;
+ 
+}
+
+.contents2_txt a {
+  margin-right: 3vw;
+
+}
+
+.contents2_txt p {
+  color: rgba(128, 128, 128, 0.568);
+  font-weight: bold;
+}
+
+.contents2_txt ul li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+  margin-bottom: 3vh;
+  margin-top: 2vh;
+} 
+
+.contents3 {
+  display: flex;
+  text-align: center;
+  width: 14%; height: 100%;
+}
+
+.contents3 img {
+  width: 100%; height: 100%;
+}
+
+.contents3 a {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  margin: 15% 4%;
+  background-color: orange;
+  width: 130px;
+  padding: 0.5% 0;
+  font-size: 1rem;
+
+}
+
+/* contact */
+
+
+.contact_logo {
+  display: flex;
+  justify-content: center;
+  width: 100%; height: 5vh;
+  background-color: beige;
+  margin: 5% auto auto auto;
+}
+
+.contact_logo img {
+  min-width: 100px; max-width: 100%;
+  margin: 0 2%;
+}
+/* logo */
 /* main ▲ */
+
+footer {
+  height: 30vh;
+  background-color: rgb(44, 43, 43);
+}
+
+.adress_m {
+  display: flex;
+  flex-flow: column;
+  margin-left: 5%;
+  padding-top: 3%;
+}
+
+.adress_m p {
+  color: gray;
+  margin: 1% auto;
+}
+
+.site ul {
+  display: flex;
+  justify-content: right;
+  margin: -6% 5%;
+
+}
+
+.site ul li {
+  margin: 0 1%;
+  color: gray;
+}
+
+.site a{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* footer */
