@@ -55,7 +55,7 @@ ul li a {
   background-color: #fff;
 }
 
-.header .h_main li:hover .h_sub li{
+.header:hover .h_sub li{
   
   height: 80px; width: 100px;
   transition: 0.5s;
